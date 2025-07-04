@@ -9,5 +9,6 @@ const mail = prompt("inserisci la tua mail")
 console.log(mail)
 
 //definisco la lista di chi può accedere in un array validMail
+const validMail = ["Margot@mail", "Scarlett@mail", "Megan@mail", "Jessica@mail", "Emma@mail"]
 
 //utilizzo un ciclo for per determinare se l'utente è presente nella lista
