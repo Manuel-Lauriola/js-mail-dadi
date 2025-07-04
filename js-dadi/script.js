@@ -10,7 +10,17 @@ let pcPoints = 0
 
 userPoints = Math.floor(Math.random()*6)+1;
 pcPoints = Math.floor(Math.random()*6)+1;
-console.log(userPoints, pcPoints)
+console.log(`il tuo dado ha avuto risultato ${userPoints}, il pc invece ${pcPoints}`)
 
 //eseguo il controllo e dichiaro il vincitore
+
+if (userPoints < pcPoints) {
+  console.log("Hai perso")
+}
+  else if (userPoints > pcPoints) {
+      console.log("Hai vinto")
+    }
+    else {
+      console.log("Pareggio, riprova")
+    }
 
